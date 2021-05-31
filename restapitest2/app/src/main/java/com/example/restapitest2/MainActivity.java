@@ -165,7 +165,7 @@ public class MainActivity extends Activity {
         json = jsonObject.toString();
         System.out.println("json toString:"+json);
         try{
-            URL url=new URL("http://15.164.144.129/sms");
+            URL url=new URL("http:dowo.pw/sms");
             conn=(HttpURLConnection)url.openConnection();
             conn.setConnectTimeout(5*1000);
             conn.setReadTimeout(5*1000);
